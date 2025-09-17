@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.pnp.cjs
 
 # testing
 /coverage
@@ -11,13 +12,25 @@
 # production
 /build
 
-# misc
-.DS_Store
+# tooling caches
+/.eslintcache
+
+# environment
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# editor directories and files
+/.vscode/
+/.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
